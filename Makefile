@@ -6,7 +6,7 @@
 #    By: sel-bouy <sel-bouy@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/17 18:27:55 by sel-bouy          #+#    #+#              #
-#    Updated: 2024/10/18 17:57:22 by sel-bouy         ###   ########.fr        #
+#    Updated: 2024/10/24 14:00:47 by sel-bouy         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = philo
 CC = cc -fsanitize=thread -g
 CFLAGS =  -Wall -Wextra -Werror
 
-SRC = main.c outils.c
+SRC = main.c outils.c parsing.c
 
 all: $(NAME)
 
